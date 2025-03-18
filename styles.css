@@ -190,6 +190,12 @@ button {
 .nav__list-item a:hover {
   color: var(--clr-accent);
 }
+.navbar, .menu, .links {
+    background: none !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+}
+
 
 /*===================
   Sections  
