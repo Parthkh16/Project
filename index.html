@@ -1,153 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Parth Khandelwal</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        <a href="https://www.linkedin.com/in/parth-khandelwal-a83b62266" class="link">{Linkedin}</a>
-      </h3>
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item"><a class="link link--nav" href="#projects">Projects</a></li>
-          <li class="nav__list-item"><a class="link link--nav" href="#skills">Skills</a></li>
-          <li class="nav__list-item"><a class="link link--nav" href="#internship">Internship</a></li>
-          <li class="nav__list-item"><a class="link link--nav" href="#certifications">Certifications</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parth Khandelwal — Data Engineer</title>
+<meta name="description" content="Parth Khandelwal, Associate Data Engineer in Ahmedabad. Azure Data Factory, Microsoft Fabric, Power BI, SQL, Spark and Kafka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <main>
-      <div class="about center">
-        <h1>Hi, I am <span class="about__name">Parth Khandelwal.</span></h1>
-        <h2 class="about__role">Analyst</h2>
-        <p class="about__desc">
-          BCA graduate with hands-on experience in data analytics, machine learning, and web development. Skilled in Python, SQL, and real-time applications, with a strong background in inventory optimization, logistics efficiency, and e-commerce operations.
-        </p>
-        <br>
-        <a href="mailto:parth169khandelwal@gmail.com">Mail: parth169khandelwal@gmail.com</a>
-        <p>Contact: +91 7737313101</p>
-        <br>
-        <div class="about__contact center">
-          <a href="https://docs.google.com/document/d/1jhmvUSP0g4pYRBpjk9ON0o0TUSs-S0f38nMCb1aHtVE/edit?usp=sharing" target="_blank"><span class="btn btn--outline">Resume</span></a>
-          <a href="https://github.com/Parthkh16" target="_blank" class="link link--icon"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/parth-khandelwal-a83b62266" target="_blank" class="link link--icon"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
+<header class="top">
+  <a class="brand" href="#top">~/parth-khandelwal</a>
+  <nav aria-label="Sections">
+    <a href="#about">about</a>
+    <a href="#experience">experience</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#contact">contact</a>
+  </nav>
+</header>
 
-     <section id="projects" class="section projects">
-  <div class="container">
-    <h2 class="section__title animate fade-in">My Projects</h2>
-    <div class="projects__grid">
-      <!-- Project 1 -->
-      <div class="project animate fade-in delay-1">
-        <h3 class="project__title">Teach a Taxi (ML Simulation)</h3>
-        <p class="project__description">Developed a reinforcement learning-based taxi simulator using Q-Learning, achieving 70% accuracy in navigation. Ran 300+ simulations, reducing navigation errors by 15%.</p>
-        <div class="project__stack">
-          <span class="project__stack-item">Python</span>
-          <span class="project__stack-item">OpenAI Gym</span>
-          <span class="project__stack-item">Pandas</span>
-        </div>
-        <a href="https://github.com/Parthkh16/teach-a-taxi" target="_blank" class="project__link">
-          View Project <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-        </a>
-      </div>
-      
-      <!-- Project 2 -->
-      <div class="project animate fade-in delay-2">
-        <h3 class="project__title">Farmify (AI-Powered Crop Health)</h3>
-        <p class="project__description">Built a CNN-ResNet50 model for crop disease detection (99.4% accuracy). Used Random Forest (99.32%) for crop recommendation and Decision Tree for fertilizer suggestions.</p>
-        <div class="project__stack">
-          <span class="project__stack-item">TensorFlow</span>
-          <span class="project__stack-item">Flask</span>
-          <span class="project__stack-item">MySQL</span>
-        </div>
-        <a href="https://github.com/Parthkh16/Farmify-ML" target="_blank" class="project__link">
-          View Project <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-        </a>
-      </div>
-      
-      <!-- Project 3 -->
-      <div class="project animate fade-in delay-3">
-        <h3 class="project__title">BuzzIt: Real-Time Chat System</h3>
-        <p class="project__description">Developed a bidirectional real-time messaging platform using Flask-Socket.IO with SQL database integration. Improved message delivery efficiency by 30%.</p>
-        <div class="project__stack">
-          <span class="project__stack-item">Flask</span>
-          <span class="project__stack-item">Socket.IO</span>
-          <span class="project__stack-item">SQL</span>
-        </div>
-        <a href="https://github.com/Parthkh16/Buzzit" target="_blank" class="project__link">
-          View Project <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-        </a>
-      </div>
-      
-      <!-- Project 4 -->
-      <div class="project animate fade-in delay-4">
-        <h3 class="project__title">Dash n Dots (Movie Rental)</h3>
-        <p class="project__description">Developed a movie rental website with features like user authentication, movie browsing, and secure payments.</p>
-        <div class="project__stack">
-          <span class="project__stack-item">Django</span>
-          <span class="project__stack-item">SQL</span>
-          <span class="project__stack-item">JavaScript</span>
-        </div>
-        <a href="https://github.com/Parthkh16/dash-n-dots" target="_blank" class="project__link">
-          View Project <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-        </a>
-      </div>
-      
-      <!-- Project 5 -->
-      <div class="project animate fade-in delay-4">
-        <h3 class="project__title">CUDA vs Metal DL Benchmark</h3>
-        <p class="project__description">Enhancing Agricultural Sustainability Through Deep Learning: A Comparative Study of NVIDIA RTX 3050 and Apple M2 in Plant Disease Detection.</p>
-        <div class="project__stack">
-          <span class="project__stack-item">CUDA</span>
-          <span class="project__stack-item">Metal</span>
-          <span class="project__stack-item">PyTorch</span>
-        </div>
-        <a href="https://github.com/Parthkh16/CUDA-vs-Metal-DL-Benchmark-RP/blob/main/CUDA-vs-Metal-DL-Benchmark.md" target="_blank" class="project__link">
-          View Research Paper <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-        </a>
-      </div>
+<main id="top">
+  <section class="hero">
+    <p class="prompt"><span class="ps">$</span> <span id="typed" data-text="whoami"></span><span class="cursor" aria-hidden="true"></span></p>
+    <h1>Parth Khandelwal</h1>
+    <p class="role">Associate Data Engineer · Power BI · Microsoft Fabric</p>
+    <p class="lede">I move enterprise data from legacy systems into modern platforms, then make it trustworthy enough for executives to report on. I work with <b>SQL Server, Azure Data Factory, Fabric and Power BI</b>, and I build streaming pipelines with Kafka and Spark on the side.</p>
+
+    <div class="flow" role="img" aria-label="Migration flow from SAP HANA to Microsoft Fabric to Power BI, over 25 billion rupees of data">
+      <div class="node">SAP HANA</div>
+      <div class="wire"><i></i></div>
+      <div class="node">Microsoft Fabric</div>
+      <div class="wire"><i></i></div>
+      <div class="node">Power BI</div>
+      <p class="flow-cap">₹25B+ of financial and operational data migrated for BCG India</p>
     </div>
-  </div>
-</section>
-      <section id="internship" class="section internship">
-        <h2 class="section__title">Internship</h2>
-        <div class="project">
-          <h3>Star Agri Warehousing (Operations Intern)</h3>
-          <p>Improved inventory tracking, reducing discrepancies by 10% across 500+ metric tons. Conducted data analysis and built Excel-based dashboards to optimize logistics operations.</p>
-          <ul class="project__stack">
-            <li>Data Analysis</li><li>Logistics Optimization</li>
-          </ul>
-        </div>
-      </section>
 
-      <section id="skills" class="section skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li>Python</li><li>SQL</li><li>Power BI</li><li>Machine Learning</li><li>Google Analytics</li>
-          <li>Git</li><li>Excel</li><li>Tableau</li><li>Java</li><li>JavaScript</li>
-        </ul>
-      </section>
+    <div class="cta">
+      <a class="btn primary" href="#contact">get in touch</a>
+      <a class="btn" href="https://github.com/Parthkh16" target="_blank" rel="noopener">github</a>
+      <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">linkedin</a>
+    </div>
 
-      <section id="certifications" class="section certifications">
-        <h2 class="section__title">Certifications</h2>
-        <ul class="certifications__list">
-          <li>Machine Learning - Infosys Springboard</li>
-          <li>Android Development - Infosys Springboard</li>
-          <li>Financial Markets Certification - Yale University</li>
-        </ul>
-      </section>
-    </main>
+    <dl class="facts">
+      <div><dt>location</dt><dd>Ahmedabad, Gujarat</dd></div>
+      <div><dt>status</dt><dd><span class="dot"></span>active at Sahana System Ltd.</dd></div>
+      <div><dt>focus</dt><dd>ETL, Fabric, Power BI, streaming</dd></div>
+    </dl>
+  </section>
 
-    <footer class="footer">
-      <a href="#top" class="link footer__link">Created By Parth Khandelwal</a>
-    </footer>
-    <script src="./script.js"></script>
-  </body>
+  <section id="about">
+    <h2>about</h2>
+    <div class="two">
+      <div class="prose">
+        <p>I'm an Associate Data Engineer at Sahana System Ltd., working on client engagements in consulting and in testing, inspection and certification. Most of my day is SQL, pipelines and reconciliation: making sure the number in the report matches the number in the source.</p>
+        <p>I started in business analysis and operations, which is why I care about the question behind the dashboard as much as the query underneath it. Outside work I build personal projects on real-time pipelines and change data capture to deepen the engineering side.</p>
+      </div>
+      <dl class="card kv">
+        <div><dt>role</dt><dd>Associate Data Engineer</dd></div>
+        <div><dt>education</dt><dd>BCA, Christ University</dd></div>
+        <div><dt>studying</dt><dd>DP-700 Fabric Engineer</dd></div>
+        <div><dt>based in</dt><dd>Ahmedabad, India</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>experience</h2>
+
+    <article class="job">
+      <p class="when">Jan 2026 – present <span>Sahana System Ltd. · Ahmedabad</span></p>
+      <h3>Associate Data Engineer</h3>
+
+      <h4>Boston Consulting Group India · Data Engineering &amp; Analytics</h4>
+      <ul>
+        <li>Contributed to migrating ₹25B+ of financial and operational data from SAP HANA to Microsoft Fabric for enterprise reporting.</li>
+        <li>Cleansed, transformed, standardized and validated data to improve consistency and reliability.</li>
+        <li>Built and optimized Power BI data models and dashboards for financial, operational, workforce and management reporting.</li>
+        <li>Implemented dynamic calculations for period-based analysis, comparisons, segmentation and performance tracking.</li>
+        <li>Reconciled source to report to validate accuracy across the pipeline.</li>
+      </ul>
+
+      <h4>Global Testing, Inspection &amp; Certification company</h4>
+      <ul>
+        <li>Developed SQL Server queries and stored procedures for transformation, incremental upserts and reporting.</li>
+        <li>Supported Azure Data Factory pipelines for automated ingestion, loading and refresh.</li>
+        <li>Implemented Row-Level Security in Power BI for 5,000+ customer accounts.</li>
+        <li>Supported migrating laboratory testing and operational reports from legacy systems to Power BI.</li>
+      </ul>
+      <p class="tags"><span>SQL Server</span><span>T-SQL</span><span>Azure Data Factory</span><span>Microsoft Fabric</span><span>SAP HANA</span><span>Power BI</span><span>RLS</span></p>
+    </article>
+
+    <article class="job">
+      <p class="when">May 2025 – Oct 2025 <span>Janitri · Bangalore</span></p>
+      <h3>Business Analyst</h3>
+      <ul>
+        <li>Worked directly with the CEO on maternal healthcare initiatives and partnerships with doctors, hospitals and wellness centers.</li>
+        <li>Built SQL and Power BI dashboards tracking adoption, retention and outreach for leadership.</li>
+        <li>Developed a company analytics dashboard in React, Material UI and Tailwind for sales, operations and customer KPIs.</li>
+        <li>Streamlined collaboration and reporting workflows, cutting manual effort in weekly reviews.</li>
+      </ul>
+      <p class="tags"><span>SQL</span><span>Power BI</span><span>React</span><span>Material UI</span><span>Tailwind</span></p>
+    </article>
+
+    <article class="job">
+      <p class="when">May 2024 – Jun 2024 <span>Star Agri Warehousing Ltd. · Mumbai</span></p>
+      <h3>Operations Analyst Intern</h3>
+      <ul>
+        <li>Analysed warehouse datasets with Excel, PivotTables and VLOOKUP to support operational decisions.</li>
+        <li>Built Power BI dashboards for warehouse KPIs and investigated data discrepancies for more accurate reporting.</li>
+      </ul>
+      <p class="tags"><span>Excel</span><span>PivotTables</span><span>Power BI</span></p>
+    </article>
+  </section>
+
+  <section id="skills">
+    <h2>skills</h2>
+    <div class="grid">
+      <div class="card"><h3>Data engineering</h3><p class="tags"><span>Azure Data Factory</span><span>Databricks</span><span>ETL / ELT</span><span>Data modeling</span><span>Data validation</span></p></div>
+      <div class="card"><h3>BI &amp; visualization</h3><p class="tags"><span>Power BI</span><span>Tableau</span><span>Dashboards</span><span>Data visualization</span></p></div>
+      <div class="card"><h3>Languages</h3><p class="tags"><span>SQL</span><span>T-SQL</span><span>PySpark</span><span>Python</span></p></div>
+      <div class="card"><h3>Processing &amp; orchestration</h3><p class="tags"><span>Apache Kafka</span><span>Apache Spark</span><span>Spark Streaming</span><span>Apache Airflow</span></p></div>
+      <div class="card"><h3>Databases</h3><p class="tags"><span>SQL Server (SSMS)</span><span>Databricks SQL</span></p></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>projects</h2>
+    <div class="grid projects">
+      <article class="card">
+        <p class="when">Oct 2026 – Nov 2026</p>
+        <h3>Real-time e-commerce analytics pipeline</h3>
+        <p>Personal project exploring real-time processing and orchestration for streaming analytics.</p>
+        <p class="tags"><span>Kafka</span><span>Spark Streaming</span><span>Airflow</span></p>
+      </article>
+      <article class="card">
+        <p class="when">Apr 2026 – Jun 2026</p>
+        <h3>CDC pipeline</h3>
+        <p>Personal project exploring change data capture, processing and orchestration with modern data engineering tools.</p>
+        <p class="tags"><span>Kafka</span><span>Debezium</span><span>Spark</span><span>Airflow</span></p>
+      </article>
+      <article class="card">
+        <p class="when">Jun 2025 – Sep 2025</p>
+        <h3>Janitri dashboard</h3>
+        <p>Responsive healthcare monitoring dashboard with modular charts, tables and forms, plus mock APIs simulating live patient data. Paired with Power BI dashboards and optimized SQL for non-technical stakeholders.</p>
+        <p class="tags"><span>React</span><span>Material UI</span><span>Tailwind</span><span>Power BI</span></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>education &amp; certifications</h2>
+    <div class="two">
+      <ul class="plain">
+        <li><b>Bachelor of Computer Applications</b><br>Christ University, Bangalore · 2022–2025</li>
+        <li><b>Senior Secondary (Commerce with CS)</b><br>St. Paul's Sr. Sec. School, Kota · 2022</li>
+      </ul>
+      <ul class="plain">
+        <li><b>DP-700 Fabric Data Engineer Associate</b><br>in progress</li>
+        <li><b>Machine Learning</b><br>Infosys Springboard</li>
+        <li><b>Financial Markets</b><br>Yale University, Coursera</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>contact</h2>
+    <p class="prose">Open to conversations about data engineering, Fabric and Power BI work. Email is the fastest way to reach me.</p>
+    <ul class="plain links">
+      <li><span>email</span><a href="mailto:parth169khandelwal@gmail.com" id="email">parth169khandelwal@gmail.com</a> <button type="button" id="copy">copy</button></li>
+      <li><span>phone</span><a href="tel:+917737313101">+91 77373 13101</a></li>
+      <li><span>github</span><a href="https://github.com/Parthkh16" target="_blank" rel="noopener">Parthkh16</a></li>
+      <li><span>linkedin</span><a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">add your profile link</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="year">2026</span> Parth Khandelwal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
